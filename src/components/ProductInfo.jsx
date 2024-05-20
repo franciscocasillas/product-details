@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 function ProductInfo({ name, price }) {
 	return (
-		<div>
+		<div className="productInfo">
 			<h2>{name}</h2>
 			<p>${price}.00</p>
 		</div>

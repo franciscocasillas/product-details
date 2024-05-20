@@ -1,0 +1,11 @@
+.productInfo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+}
+
+.productInfo * {
+	margin: 0;
+}

@@ -4,3 +4,21 @@
 	padding: 2rem;
 	text-align: center;
 }
+
+.productCard {
+	display: flex;
+	gap: 100px;
+	justify-content: center;
+}
+
+.image {
+	max-width: 50%;
+}
+
+.description {
+	max-width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+	padding-top: 30px;
+}
